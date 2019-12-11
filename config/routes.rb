@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  route to:  'application#hello'
-
+  root 'application#hello'
+  resources :apllication
 end
